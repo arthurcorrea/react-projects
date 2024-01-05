@@ -1,0 +1,48 @@
+.project_detais {
+    padding: 2em;
+}
+
+.project_detais h1, h2, p {
+    margin-bottom: .5em;
+}
+
+.project_detais h1 {
+    background-color: #222;
+    border-radius: 8px;
+    color: #ffbb33;
+    padding: .4em;
+}
+
+.project_detais span {
+    font-weight: bold;
+}
+
+.detail_container, .service_form_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #7a7a7a;
+    margin-bottom: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+.btn {
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: .3s;
+    cursor: pointer;
+    max-height: 40px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #272727;
+    color: #ffbb33;
+}
+
+.project_info {
+    width: 100%;
+}

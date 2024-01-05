@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 51, 51);
+    padding: 1em;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.li {
+    color: #fff;
+    text-decoration: none;
+    margin: 3px 7px;
+    padding: 5px;
+    transition: .3s;
+}
+
+.li:hover {
+    color: #ffbb33;
+
+}
